@@ -1,10 +1,9 @@
-import "./WhatMakes.css"
-
+import "./WhatMakes.css";
 
 const WhatMakes = () => {
   return (
     <div>WhatMakes</div>
-  )
-}
+  );
+};
 
-export default WhatMakes
+export default WhatMakes;

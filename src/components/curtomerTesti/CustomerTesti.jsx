@@ -55,7 +55,7 @@ const CustomerTesti = () => {
               <div className="customerTesti__ratingLine"></div>
 
               <p className="customerTesti__google">Google</p>
-              <p className="customerTesti__grade">EXELLENCET</p>
+              <p className="customerTesti__grade">EXCELLENT</p>
 
               <div className="customerTesti__reviewCount">
                 <Stars />

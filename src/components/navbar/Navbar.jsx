@@ -1,10 +1,9 @@
-import "./Navbar.css"
-
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <div>Navbar</div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

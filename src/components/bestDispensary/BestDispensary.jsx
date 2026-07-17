@@ -1,10 +1,9 @@
-import "./BestDispensary.css"
-
+import "./BestDispensary.css";
 
 const BestDispensary = () => {
   return (
     <div>BestDispensary</div>
-  )
-}
+  );
+};
 
-export default BestDispensary
+export default BestDispensary;

@@ -8,7 +8,7 @@ const WeedEducation = () => {
       <div className="WeedEdu">
         <div className="titleBox">
           <h2>WEED EDUCATION</h2>
-          <Link>Show All</Link>
+          <Link to="/weed-education">Show All</Link>
         </div>
         <div className="news">
           {weedEdu.map((item) => {

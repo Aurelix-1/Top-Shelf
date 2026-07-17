@@ -1,10 +1,9 @@
-import "./Banner.css"
-
+import "./Banner.css";
 
 const Banner = () => {
   return (
     <div>Laylo</div>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

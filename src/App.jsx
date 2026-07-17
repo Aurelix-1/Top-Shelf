@@ -1,15 +1,13 @@
-import Home from "./router/Home/Home.jsx";
-import { Route, Routes } from "react-router-dom";
-import SingleRoute from "./router/SingleRoute/SingleRoute.jsx";
+import { Routes, Route } from 'react-router-dom';
+import Home from './router/Home/Home';
+import SingleProduct from './router/SingleRoute/SingleRoute';
 
 const App = () => {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/single" element={<SingleRoute />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/product/:id" element={<SingleProduct />} />
+    </Routes>
   );
 };
 
