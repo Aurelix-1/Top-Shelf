@@ -1,7 +1,9 @@
 .recentlyAdded {
   width: 100%;
   background: #ffffff;
-  padding: 72px 0 86px;
+  padding: 72px 0 120px;
+  position: relative;
+  z-index: 0;
 }
 
 .recentlyAdded__contentWrap {
@@ -307,7 +309,9 @@
     -9px 0 0 -5px #020a03;
 }
 
-.recentlyAdded__educationCard:nth-child(3) .recentlyAdded__leafBadge path:first-child {
+.recentlyAdded__educationCard:nth-child(3)
+  .recentlyAdded__leafBadge
+  path:first-child {
   fill: #009b32;
 }
 

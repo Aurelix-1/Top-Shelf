@@ -2,7 +2,9 @@
   width: 100%;
   min-height: 935px;
   background-color: #f4f4f4;
-  padding-top: 120px;
+  padding: 120px 0 120px;
+  position: relative;
+  z-index: 0;
 }
 
 .WeedEdu {
@@ -21,7 +23,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border-bottom: 1px solid #C8C9CB;
+  border-bottom: 1px solid #c8c9cb;
 }
 
 .titleBox a {
