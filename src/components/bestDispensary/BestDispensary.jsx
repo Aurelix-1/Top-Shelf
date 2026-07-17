@@ -3,7 +3,7 @@ import "./BestDispensary.css"
 
 const BestDispensary = () => {
   return (
-    <div>BestDispensary</div>
+    <div>BestDispensary67</div>
   )
 }
 
