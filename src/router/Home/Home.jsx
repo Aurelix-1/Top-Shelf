@@ -8,7 +8,7 @@ import ChooseYour from "../../components/ChooseYour/ChooseYour.jsx";
 import HowTo from "../../components/howTo/HowTo.jsx";
 import WhatMakes from "../../components/whatMakes/WhatMakes.jsx";
 import RecentlyAdded from "../../components/recentlyAdded/RecentlyAdded.jsx";
-import WeedEducation from "../../components/WeedEducation/WeedEducation.jsx";
+import WeedEducation from "../../components/WeedEducation/WeedEducation.jsx"
 import Footer from "../../components/footer/Footer.jsx";
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
       <HowTo />
       <WhatMakes />
       <RecentlyAdded />
-      <WeedEducation />
+      <WeedEducation/>
       <Footer />
     </div>
   );
