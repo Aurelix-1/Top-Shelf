@@ -15,10 +15,10 @@ const WeedEducation = () => {
             return (
               <div key={item.id} className="newsBox">
                 <img src={item.image} alt={item.image} />
-                <p>{item.data}</p>
+                <p className='newData'>{item.data}</p>
                 <h3>{item.title}</h3>
-                <p>{item.desc}</p>
-                <Link>{item.link}</Link>
+                <p className='newDesc'>{item.desc}</p>
+                <Link className='newsLink'>{item.link}</Link>
               </div>
             );
           })}
