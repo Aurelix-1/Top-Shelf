@@ -1,0 +1,56 @@
+section {
+  background: url(../../assets/green.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 720px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.green-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 40%;
+  
+}
+
+.green-text > p{
+  color: #F2BC1B;
+  font-style: Regular;
+}
+
+.green-text > h1{
+  font-weight: 600;
+  color: #FFFFFF;
+  font-style: SemiBold;
+  font-size: 50px;
+}
+
+.green-text > span {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.green-text > h3{
+  color: #FFFFFF;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.green-text > button {
+  background-color: #17AF26;
+  color: #FFFFFF;
+  padding: 15px 80px 15px 80px;
+  width:40%;
+  border: none;
+  border-radius: 100px;
+}
