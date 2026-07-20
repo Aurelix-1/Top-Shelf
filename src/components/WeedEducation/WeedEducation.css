@@ -1,0 +1,65 @@
+.Education-container {
+  width: 100%;
+  min-height: 935px;
+  background-color: #f4f4f4;
+  padding: 120px 0 120px;
+  position: relative;
+  z-index: 0;
+}
+
+.WeedEdu {
+  max-width: 1200px;
+  width: 100%;
+  min-height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.titleBox {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #c8c9cb;
+}
+
+.titleBox a {
+  color: #17af26;
+}
+
+.news {
+  display: flex;
+  gap: 32px;
+}
+
+.news img {
+  margin-bottom: 24px;
+}
+
+.news .newData {
+  font-size: 14px;
+  font-weight: 300;
+  color: #717378;
+  line-height: 150%;
+}
+
+.news h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.5px;
+  color: #1a1e26;
+  margin-bottom: 8px;
+}
+
+.newDesc {
+  margin-bottom: 32px;
+}
+
+.newsLink {
+  text-decoration: underline;
+  color: #17af26;
+}

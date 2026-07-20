@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  gap: 50px;
+  margin: 50px;
+}
+
+.cardOne {
+  display: flex;
+  align-items: flex-start;
+}
+.cardTwo {
+  display: flex;
+  align-items: flex-start;
+}
+.cardThree {
+  display: flex;
+  align-items: flex-start;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.paragraphs p{
+  color: gray;
+}

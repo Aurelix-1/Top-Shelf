@@ -1,0 +1,213 @@
+
+.footer {
+  background: #16181c;
+  color: #cfd2d6;
+  padding: 40px 60px 0;
+  font-family: "Poppins", sans-serif;
+}
+ 
+
+.coupon-card {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  background: #0b3d2e;
+  border-radius: 24px;
+  padding: 40px 60px 50px;
+}
+ 
+.coupon-title {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 16px;
+}
+ 
+.coupon-subtitle {
+  color: #d7ded9;
+  font-size: 18px;
+  margin: 0 0 24px;
+}
+ 
+.coupon-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 24px;
+}
+ 
+.coupon-form {
+  display: flex;
+  gap: 16px;
+  max-width: 700px;
+}
+ 
+.coupon-input {
+  flex: 1;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 30px;
+  padding: 16px 24px;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+}
+ 
+.coupon-input::placeholder {
+  color: #b7c2bc;
+}
+ 
+.coupon-btn {
+  background: #3fb843;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0 32px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease;
+}
+ 
+.coupon-btn:hover {
+  background: #35a339;
+}
+ 
+
+.footer-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+  padding-bottom: 40px;
+}
+ 
+.footer-brand {
+  flex: 0 0 320px;
+}
+ 
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+ 
+.footer-logo-icon {
+  color: #fff;
+  font-size: 26px;
+}
+ 
+.footer-logo-title {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Playfair Display", serif;
+}
+ 
+.footer-logo-subtitle {
+  display: block;
+  color: #9aa19c;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+ 
+.footer-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #9ba0a5;
+}
+ 
+.footer-links {
+  flex: 1;
+}
+ 
+.footer-heading {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 28px 0 16px;
+}
+ 
+.footer-heading:first-child {
+  margin-top: 0;
+}
+ 
+.footer-columns {
+  display: flex;
+  gap: 100px;
+}
+ 
+.footer-columns ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.footer-columns li {
+  font-size: 14px;
+  color: #9ba0a5;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+ 
+.footer-columns li:hover {
+  color: #fff;
+}
+ 
+.footer-contact {
+  font-size: 14px;
+  color: #9ba0a5;
+}
+ 
+.footer-payments {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+}
+ 
+.payment-icon {
+  font-size: 34px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 4px;
+}
+ 
+.mastercard {
+  color: #eb001b;
+}
+ 
+.visa {
+  color: #1a1f71;
+}
+ 
+.bitcoin {
+  color: #f7931a;
+}
+ 
+.monero {
+  color: #ff6600;
+}
+ 
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #8a8f93;
+}
+ 
+.footer-bottom-links {
+  display: flex;
+  gap: 24px;
+}
+ 
