@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.howto {
+  width: 100%;
+  background: #01100b;
+  padding: 100px 0;
+}
+
+.howto-container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.howto-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.howto-title {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.howto-description {
+  width: 720px;
+  max-width: 100%;
+  margin: 25px auto 0;
+  color: #9aa69f;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.howto-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px 100px;
+}
+
+.howto-item {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+.howto-step {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-55px);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #f6c343;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.howto-icon {
+  width: 95px;
+  height: 95px;
+  margin: 20px auto;
+}
+
+.howto-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.howto-item-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.howto-item-text {
+  color: #8d9893;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.howto-button {
+  display: block;
+  margin: 70px auto 0;
+  padding: 18px 45px;
+  border: none;
+  border-radius: 50px;
+  background: #17b44d;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.howto-button:hover {
+  background: #10943d;
+}
+
+@media (max-width: 992px) {
+  .howto-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .howto-title {
+    font-size: 38px;
+  }
+
+  .howto-description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .howto {
+    padding: 70px 0;
+  }
+
+  .howto-title {
+    font-size: 28px;
+  }
+
+  .howto-item-title {
+    font-size: 20px;
+  }
+
+  .howto-item-text {
+    font-size: 14px;
+  }
+
+  .howto-button {
+    width: 100%;
+  }
+}
