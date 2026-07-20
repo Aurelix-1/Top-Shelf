@@ -3,6 +3,8 @@ import "./Banner.css"
 
 const Banner = () => {
   return (
+    <div>Hello world</div>
+
         <section className='green'>
           <div className="green-text">
             <p>BEST SELLER</p>
@@ -16,4 +18,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default Banner;
