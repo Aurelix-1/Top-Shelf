@@ -1,7 +1,7 @@
-import { CiSearch } from "react-icons/ci";
+// import { CiSearch } from "react-icons/ci";
 import "./Navbar.css";
 import Logo from "../../assets/Logo (9).png";
-import { BsBucket } from "react-icons/bs";
+// import { BsBucket } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -18,10 +18,10 @@ const Navbar = () => {
           <input className="site-input" type="text" placeholder="Search" />
           <button className="site-btn">
             {" "}
-            <CiSearch />
+            {/* <CiSearch /> */}
           </button>
         </div>
-        <h5 className="mini-text">Your Account  |  <BsBucket /></h5>
+        <h5 className="mini-text">Your Account  |  {/* <BsBucket /> */}</h5>
       </div>
       <div className='SiteLinks'>
         <ul className='links'>
