@@ -1,11 +1,7 @@
 import "./Banner.css"
-
-
 const Banner = () => {
   return (
-    <div>Hello world</div>
-
-        <section className='green'>
+    <section className='green'>
           <div className="green-text">
             <p>BEST SELLER</p>
             <h1>BEST DISPENSARY TO BUY WEED ONLINE </h1>
